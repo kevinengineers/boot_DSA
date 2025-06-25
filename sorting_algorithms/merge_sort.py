@@ -14,7 +14,7 @@ def merge(first, second):
     final = []
     while first and second:
         if first[0] < second[0]:
-            final.append(first.pop(0))
+           final.append(first.pop(0))
         else:
             final.append(second.pop(0))
     
